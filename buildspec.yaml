@@ -5,6 +5,8 @@ phases:
     commands:
       - chmod +x ./gradlew
       - ./gradlew assembleDebug
+      - ls
+      - find -name "*apk"
 artifacts:
   files:
      - '**/*.apk'
