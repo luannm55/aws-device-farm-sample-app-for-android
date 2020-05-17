@@ -9,5 +9,5 @@ phases:
       - find -name "*apk"
 artifacts:
   files:
-     - '**/*.apk'
+     - './app/build/outputs/apk/*.apk'
   discard-paths: yes
